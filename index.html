@@ -1,0 +1,126 @@
+
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link href = "<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">" 
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <center>
+      <div class = "col-xs-12 header_div">
+        <h2>
+          MobileNet vs Google Lens
+          <br>
+          <img id= "case_study_GIF"src = "https://media4.giphy.com/media/pEfgbZ5gk8TVoHM5Lv/giphy.gif?cid=6c09b952ef2df1a884b4394569ab43a2f7ef89124520958e&rid=giphy.gif&ct=s">
+        </h2>
+      </div>
+      
+      <lo>
+        <div class = "text_images_and_results">
+          <li>
+            <b>Test Image - </b><img id = "shoe"src = "https://i.postimg.cc/02cFYc6B/Shoes.png" class = "img-responsive">
+          </li>
+          <h5>Output on <b>Google Lens </b> -
+            <span>Canvas shoes</span>
+          </h5>
+          <h5>Output on <b>Mobilenet Model </b> -
+            <span>Running shoes</span>
+          </h5>
+
+        </div>
+
+      </lo>
+
+      <lo>
+        <div class = "text_images_and_results">
+          <li>
+            <b>Test Image - </b><img id = "bed"src = "https://i.postimg.cc/SRVTGxKM/Bed.png" class = "img-responsive">
+          </li>
+          <h5>Output on <b>Google Lens </b> -
+            <span>Bed, Pillow, Blanket</span>
+          </h5>
+          <h5>Output on <b>Mobilenet Model </b> -
+            <span>Bathtub, bathing tub, bath, tub</span>
+          </h5>
+
+        </div>
+
+      </lo>
+
+      <lo>
+        <div class = "text_images_and_results">
+          <li>
+            <b>Test Image - </b><img id = "bottle"src = "https://i.postimg.cc/gjHdXCg0/Waterbottle.png" class = "img-responsive">
+          </li>
+          <h5>Output on <b>Google Lens </b> -
+            <span>Water Bottle</span>
+          </h5>
+          <h5>Output on <b>Mobilenet Model </b> -
+            <span>Water Bottle</span>
+          </h5>
+
+        </div>
+
+      </lo>
+
+      <lo>
+        <div class = "text_images_and_results">
+          <li>
+            <b>Test Image - </b><img id = "headphones"src = "https://i.postimg.cc/SNsDhqsg/headphone.png" class = "img-responsive">
+          </li>
+          <h5>Output on <b>Google Lens </b> -
+            <span>Headphones</span>
+          </h5>
+          <h5>Output on <b>Mobilenet Model </b> -
+            <span>Microphone, Mike</span>
+          </h5>
+
+        </div>
+
+      </lo>
+
+      <lo>
+        <div class = "text_images_and_results">
+          <li>
+            <b>Test Image - </b><img id = "stuffedAnimal"src = "https://i.postimg.cc/wv2cCbdK/stuffed-Animal.png" class = "img-responsive">
+          </li>
+          <h5>Output on <b>Google Lens </b> -
+            <span>Soft toy</span>
+          </h5>
+          <h5>Output on <b>Mobilenet Model </b> -
+            <span> Ski Mask</span>
+          </h5>
+
+        </div>
+
+      </lo>
+    </center>
+
+    <div class = "col-xs-12 footer_div">
+      <h4 class = "col-sm-6 col-xs-12 footer_div">
+        <span id = "object_name">
+          I have tested 5 images
+          GOOGLE LENS have predicted 4 of them more accurately. And MOBILENET was less accurately
+          So according to my case study GOOGLE LENS is more Accurate
+        </span>
+      </h4>
+    </div>
+
+    <div class = "copy_right_footer">
+      Developed By: Varsha
+    </div>
+
+
+    
+<script src="main.js"></script>
+  </body>
+</html>

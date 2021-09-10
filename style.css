@@ -1,0 +1,72 @@
+body{
+    font-family: 'Special Elite', cursive;
+    background: rgb(55, 101, 228);
+}
+.header_div{
+    background: white;
+    color: rgb(55, 101, 228);
+}
+.header_div img{
+    width: 100px;
+}
+.main_div{
+    background: lightpink;
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px solid white;
+}
+.main_div label{
+    background: white;
+    width: 310px;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 18px grey;
+}
+#camera, #result{
+    border: 2px solid white;
+    width: 310px;
+    height: 300px;
+    box-shadow: 5px 5px 18px grey;
+}
+.main_div button{
+    width: 310px;
+    font-size: 16px;
+    box-shadow: 5px 5px 18px grey;
+    border: 1px solid;
+}
+.footer_div{
+    margin-bottom: 50px;
+}
+.footer_div h4{
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 18px white;
+}
+.footer_div img{
+    width: 70px;
+}
+.copy_right_footer{
+    position: fixed;
+    color: rgb(55, 101, 228);
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(250, 251, 252);
+    line-height: 3;
+    text-align: center; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#shoe, #bed, #bottle, #headphones, #stuffedAnimal{
+    height: 200;
+    width: 200;
+}
+#object_name{
+    font-size: 16px;
+}
+#case_study_GIF{
+    height: 80;
+    width: 80;
+}
+.text_images_and_results{
+    color: white;
+}
